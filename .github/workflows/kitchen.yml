@@ -8,7 +8,8 @@ jobs:
     strategy:
       matrix:
         os:
-          - centos-7
+          - ubuntu-1604
+          - ubuntu-1804
           - centos-8
         suite: ['default']
       fail-fast: false
