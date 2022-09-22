@@ -16,7 +16,7 @@ jobs:
     - name: Check out code
       uses: actions/checkout@master
     - name: Install Chef
-      uses: actionshub/chef-install@master
+      uses: actionshub/chef-install@main
 #     - name: Test-Kitchen
 #       uses: actionshub/test-kitchen@master
 #       with:
@@ -25,7 +25,6 @@ jobs:
 #       env:
 #         CHEF_LICENSE: accept-no-persist
 #         KITCHEN_LOCAL_YAML: kitchen.dokken.yml
-        
 
 
 #     - name: Dokken
