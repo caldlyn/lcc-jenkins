@@ -31,7 +31,6 @@ e.g.
 
 Recipes
 -------
-
 default
 -------
 Installs java, jenkins and configures base security, also enables users sign up option.
